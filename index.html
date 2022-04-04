@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>DrivenEats</title>
+    <link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+<body>
+    <div class="topo">
+            <span class="logo1">DrivenEats</span>
+            <span class="logo2">Sua comida em 6 minutos</span>
+    </div>
+    <div class="conteiner">
+        <div class="post">
+            <span class="titulo-post">Primeiro, seu prato</span>
+            <div class="posts">
+                <div class="prato" onclick="selecionarP(this)">
+                    <img src="//img.itdg.com.br/tdg/images/recipes/000/002/744/325185/325185_original.jpg?mode=crop&width=710&height=400"/>
+                    <span class="prato-titulo">Strogonoff Caseiro da Vô Clêlia</span>
+                    <span class="prato-subtitulo">Strogonoff clássico com arroz soltinho e batata palha feita na hora</span>
+                    <div class="valores">
+                        <span class="cifrao">R$</span><span class="preco">18,90</span>
+                    </div>
+                    <ion-icon name="checkmark-circle-sharp"></ion-icon>
+                </div>
+                <div class="prato" onclick="selecionarP(this)">
+                    <img src="https://anoteareceita.com.br/wp-content/uploads/2019/10/lasanha-a-bolonhesa-com-molho-branco-810x456.jpg"/>
+                    <span class="prato-titulo">Lasanha Bolonhesa da Dona Dores</span>
+                    <span class="prato-subtitulo"> Uma lasanha com gosto casa, acompanha arroz, feijão e fritas </span>
+                    <div class="valores">
+                        <span class="cifrao">R$</span><span class="preco">15,60</span>
+                    </div>
+                    <ion-icon name="checkmark-circle-sharp"></ion-icon>
+                </div>
+                <div class="prato" onclick="selecionarP(this)">
+                    <img src="https://pt.petitchef.com/imgupl/recipe/bife-a-parmegiana--md-166613p249294.jpg"/>
+                    <span class="prato-titulo">Parmediana de frango sem criativade</span>
+                    <span class="prato-subtitulo">Strogonoff clássico com arroz soltinho e batata palha feita na hora</span>
+                    <div class="valores">
+                        <span class="cifrao">R$</span><span class="preco">22,30</span>
+                    </div>
+                    <ion-icon name="checkmark-circle-sharp"></ion-icon>
+                </div>
+                <div class="prato" onclick="selecionarP(this)">
+                    <img src="/Imagens/bife_acebolado.jpeg">
+                    <span class="prato-titulo">Bife Acebolado com gostinho de chapa suja</span>
+                    <span class="prato-subtitulo">Bife acebolado com cara de buteco, acompanha arroz, feijão e fritas.<br>É um clássico brasileiro</span>
+                    <div class="valores">
+                        <span class="cifrao">R$</span><span class="preco">20,00</span>
+                    </div>
+                    <ion-icon name="checkmark-circle-sharp"></ion-icon>
+                </div>
+            </div>
+
+        </div>
+        <div class="post">
+            <span class="titulo-post">Agora, sua bebida</span>
+            <div class="posts">
+                <div class="prato" onclick="selecionarB(this)">
+                    <img src="/Imagens/suco-del-vale.jpeg"/>
+                    <span class="prato-titulo">Suquinho de Uva para Adocicar a sua Vida</span>
+                    <span class="prato-subtitulo">Garrafa 435 ml</span>
+                    <div class="valores">
+                        <span class="cifrao">R$</span><span class="preco">8,70</span>
+                    </div>
+                    <ion-icon name="checkmark-circle-sharp"></ion-icon>
+                </div>
+                <div class="prato" onclick="selecionarB(this)">
+                    <img src="/Imagens/cerveja.jpeg"/>
+                    <span class="prato-titulo">Cervejinha Pq Ninguém é de Ferro</span>
+                    <span class="prato-subtitulo">500 ml</span>
+                    <div class="valores">
+                        <span class="cifrao">R$</span><span class="preco">12,90</span>
+                    </div>
+                    <ion-icon name="checkmark-circle-sharp"></ion-icon>
+                </div>
+                <div class="prato" onclick="selecionarB(this)">
+                    <img src="/Imagens/kapo_delvalle.jpeg"/>
+                    <span class="prato-titulo">O Kapinho da sua Infânica para te Agradar </span>
+                    <span class="prato-subtitulo">200 ml</span>
+                    <div class="valores">
+                        <span class="cifrao">R$</span><span class="preco">3,50</span>
+                    </div>
+                    <ion-icon name="checkmark-circle-sharp"></ion-icon>
+                </div>
+                <div class="prato" onclick="selecionarB(this)">
+                    <img src="/Imagens/coca.jpeg"/>
+                    <span class="prato-titulo">Uma Coquinha Bem Geladinha</span>
+                    <span class="prato-subtitulo">350 ml</span>
+                    <div class="valores">
+                        <span class="cifrao">R$</span><span class="preco">4,50</span>
+                    </div>
+                    <ion-icon name="checkmark-circle-sharp"></ion-icon>
+                </div>
+            </div>
+
+        </div>
+        <div class="post">
+            <span class="titulo-post">Por fim, sua sobremesa</span>
+            <div class="posts">
+                <div class="prato" onclick="selecionarS(this)">
+                    <img src="https://www.receitasagora.com.br/wp-content/uploads/2020/03/receita-bolo-vulcao-de-cenoura.jpg"/>
+                    <span class="prato-titulo">Bolo de Cenoura Recheado </span>
+                    <span class="prato-subtitulo">Bolinho fitness pra quem não come verdura ficar saudável</span>
+                    <div class="valores">
+                        <span class="cifrao">R$</span><span class="preco">6,50</span>
+                    </div>
+                    <ion-icon name="checkmark-circle-sharp"></ion-icon>
+                </div>
+                <div class="prato" onclick="selecionarS(this)">
+                    <img src="https://images.aws.nestle.recipes/original/6e2e61020eadf272935941d383275f18_cheesecake-receitas-nestle.jpg"/>
+                    <span class="prato-titulo">CheeseCake Delícia</span>
+                    <span class="prato-subtitulo">Cheesecake delicinha com geleia de morango para adoçar esse seu coração amargo!</span>
+                    <div class="valores">
+                        <span class="cifrao">R$</span><span class="preco">9,80</span>
+                    </div>
+                    <ion-icon name="checkmark-circle-sharp"></ion-icon>
+                </div>
+                <div class="prato" onclick="selecionarS(this)">
+                    <img src="https://img.itdg.com.br/tdg/images/recipes/000/031/593/318825/318825_original.jpg?mode=crop&width=710&height=400"/>
+                    <span class="prato-titulo">Pudim bem Molinho!</span>
+                    <span class="prato-subtitulo">Pudim maravilhoso que até balança quando bate na mesa</span>
+                    <div class="valores">
+                        <span class="cifrao">R$</span><span class="preco">3,50</span>
+                    </div>
+                    <ion-icon name="checkmark-circle-sharp"></ion-icon>
+                </div>
+                <div class="prato" onclick="selecionarS(this)">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOvncjvbc_LKj3jLyUaJENM-DYDKhTi9atyw&usqp=CAU"/>
+                    <span class="prato-titulo">Sorvete Caseiro de Morango</span>
+                    <span class="prato-subtitulo">Sorvete feito a base de morango com gosto de coisa importada</span>
+                    <div class="valores">
+                        <span class="cifrao">R$</span><span class="preco">5.50</span>
+                    </div>
+                    
+                    <ion-icon name="checkmark-circle-sharp"></ion-icon>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <div class="bottom">
+        <div class="bottom-margin">
+            <span class="bottom-span1">Selecione os 3 itens<br>para fechar o pedido</span>
+             <span class="bottom-span2 escondido" onclick="pedidoWhats()" >Fechar pedido</span>
+        </div>
+    </div>
+    <div class="bill">
+        <span class="bill-titulo">Confirme seu pedido</span>
+        <span class="bill-confirmacao">Tudo certo, pode pedir</span>
+        <span class="bill-cancelar">Cancelar</span>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
